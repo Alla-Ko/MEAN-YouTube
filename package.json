@@ -1,0 +1,23 @@
+{
+  "name": "mean-youtube",
+  "version": "1.0.0",
+  "description": "This is a small MEAN app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "*",
+    "mongoose": "^8.8.3",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
